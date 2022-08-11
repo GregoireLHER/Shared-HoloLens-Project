@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5809,7 +5809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &333471866
 Transform:
   m_ObjectHideFlags: 0
@@ -10387,9 +10387,9 @@ GameObject:
   - component: {fileID: 678651996}
   - component: {fileID: 678651995}
   - component: {fileID: 678651994}
-  - component: {fileID: 678651993}
   - component: {fileID: 678651992}
   - component: {fileID: 678651991}
+  - component: {fileID: 678651997}
   m_Layer: 0
   m_Name: ' Extrusion [307495]'
   m_TagString: Untagged
@@ -10494,21 +10494,6 @@ MonoBehaviour:
   scaleMinimum: 0.2
   scaleMaximum: 2
   relativeToInitialState: 1
---- !u!114 &678651993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 678651987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac28f8bfe57b7f4182539cec9c0b40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handType: 3
-  proximityType: 3
-  executionOrder: 0
 --- !u!65 &678651994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10578,7 +10563,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoConstraintSelection: 0
-  selectedConstraints: []
+  selectedConstraints:
+  - {fileID: 678651997}
+--- !u!114 &678651997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678651987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149fa3ae453128b41940b5caa905f8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  executionOrder: 0
+  constraintOnMovement: -1
+  useLocalSpaceForConstraint: 0
 --- !u!1 &679049197
 GameObject:
   m_ObjectHideFlags: 0
@@ -23060,7 +23063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1791262377
 Transform:
   m_ObjectHideFlags: 0
