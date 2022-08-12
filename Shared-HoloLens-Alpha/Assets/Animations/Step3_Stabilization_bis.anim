@@ -124,7 +124,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Stabilizer R
+    path: 'Stabilizer R '
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -151,7 +151,7 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1715223814
+      path: 6903373
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -444,7 +444,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -490,7 +490,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -536,7 +536,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -607,7 +607,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -617,7 +617,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -627,7 +627,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Stabilizer R
+    path: 'Stabilizer R '
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
