@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 67
+  controlID: 79
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 65
+  controlID: 77
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -145,15 +145,15 @@ MonoBehaviour:
     y: 475.2
     width: 972
     height: 247.59998
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 66
+  controlID: 78
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 328376
+  m_LastSelectedObjectID: 352730
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,22 +349,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Extras/PolygonConstruction/Prefabs/Props
+    - Assets/Animations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Extras/PolygonConstruction/Prefabs/Props
+  - Assets/Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\grego\GitHub\Shared-HoloLens-Project\Shared-HoloLens-Alpha
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 225.40002}
-    m_SelectedIDs: daea0000
-    m_LastClickedID: 60122
-    m_ExpandedIDs: 0000000002960000b0960000fe9600000697000008970000109700003c9700009c9700009e970000a0970000aa97000090e900009cea000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ee970000
+    m_LastClickedID: 38894
+    m_ExpandedIDs: 00000000e6970000f097000034980000369800003a980000769b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000002960000
+    m_ExpandedIDs: 00000000e6970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 668}
+    m_ScrollPosition: {x: 0, y: 104.400024}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ae5fcff3447fdffa64dfdff3277fdff828efdffd08efdffde8efdffd291fdff0e10feff6010feff7614feffce19feffa82cfeff9e83ffffccf9ffff2cfbffff9e7000000c7100009c7100009a720000e4730000fc73000044740000a8740000be740000d67400000a750000167500004c75000054750000487600008c7600000c7700004c770000627700006e770000ba78000002840000b0880000c2880000328900007e89000080890000b08900000ed30100eeef01002afa0100a6470200d24b0200e2510200ac530200686002009ac80200da53030050570300c2590300665f0300ae6a0300de6f0300be0e0500
+      m_ExpandedIDs: 0cc4fcff5cc4fcff72c8fcff88fefcff64acfdfff2b2fdffd0b8fdffa8c0fdff32fefdff2a0ffeff320ffeff8011feffbe11feff8214feff0815feff6815fefff815feff4417fefff417feff3018feff6e18feffae18feff9419feff241afeffca1afeff0c1bfeff541bfeff1c98ffff5ec9ffff62c9ffff70c9ffff94c9ffff7ef7ffff2cfbffff3a7200004672000002740000ea7700008c7a0000d4850000048b00008c240100ae270100602901001e2e010062300100aa3b0100da4001001e05030024120300c035030088670300f2f503005e050400c40804003a0a0400ee0e0400f2120400f41804008e190400061b0400888404000086040048f00400c0f104007c370500f43805005e6c0500027405004e740500ca7e050012800500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -771,9 +771,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.07254967, y: 0.049585328, z: -0.6462531}
+    m_Target: {x: -0.23510437, y: -0.59592384, z: -0.21601236}
     speed: 2
-    m_Value: {x: 0.07254967, y: 0.049585328, z: -0.6462531}
+    m_Value: {x: -0.23510437, y: -0.59592384, z: -0.21601236}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -796,7 +796,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -820,17 +820,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.038215596, y: -0.094292104, z: 0.0036526048, w: 0.9948395}
+    m_Target: {x: -0.30868462, y: -0.008465885, z: 0.0030540195, w: -0.95122266}
     speed: 2
-    m_Value: {x: 0.038219687, y: -0.092796475, z: 0.0035951508, w: 0.9949448}
+    m_Value: {x: -0.307228, y: -0.008469647, z: 0.0030410208, w: -0.9515934}
   m_Size:
-    m_Target: 2.443259
+    m_Target: 2.9443417
     speed: 2
-    m_Value: 2.3380468
+    m_Value: 2.9443417
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.3003497
     m_SpeedNormalized: 0.64999986
