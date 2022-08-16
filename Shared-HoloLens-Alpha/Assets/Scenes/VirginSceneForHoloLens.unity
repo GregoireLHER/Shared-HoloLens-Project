@@ -9219,7 +9219,7 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnMovement: -1
+  constraintOnMovement: 5
   useLocalSpaceForConstraint: 1
 --- !u!114 &157256830
 MonoBehaviour:
@@ -9375,7 +9375,7 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnRotation: 3
+  constraintOnRotation: 6
   useLocalSpaceForConstraint: 1
 --- !u!114 &157256837
 MonoBehaviour:
@@ -12435,7 +12435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &223615649
 Transform:
   m_ObjectHideFlags: 0
@@ -87491,8 +87491,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49661064, y: 5.9048657, z: 0.20609117}
-  m_Center: {x: -1.2529721, y: 2.940729, z: -0.34998167}
+  m_Size: {x: 0.49661064, y: 5.2614517, z: 0.20609117}
+  m_Center: {x: -1.2529721, y: 2.6190214, z: -0.34998167}
 --- !u!114 &1880084491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87527,7 +87527,7 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   constraintOnRotation: 6
-  useLocalSpaceForConstraint: 1
+  useLocalSpaceForConstraint: 0
 --- !u!114 &1880084494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87543,8 +87543,8 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnMovement: -1
-  useLocalSpaceForConstraint: 1
+  constraintOnMovement: 5
+  useLocalSpaceForConstraint: 0
 --- !u!1 &1880301904
 GameObject:
   m_ObjectHideFlags: 0
@@ -97148,7 +97148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2070762358
 Transform:
   m_ObjectHideFlags: 0
