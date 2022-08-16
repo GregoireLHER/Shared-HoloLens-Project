@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9095,8 +9095,8 @@ GameObject:
   - component: {fileID: 157256832}
   - component: {fileID: 157256831}
   - component: {fileID: 157256830}
-  - component: {fileID: 157256829}
   - component: {fileID: 157256828}
+  - component: {fileID: 157256836}
   m_Layer: 0
   m_Name: ' Extrusion [307495]'
   m_TagString: Untagged
@@ -9135,21 +9135,7 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   constraintOnMovement: -1
-  useLocalSpaceForConstraint: 0
---- !u!114 &157256829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157256826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 0
-  IsBoundsHandles: 0
+  useLocalSpaceForConstraint: 1
 --- !u!114 &157256830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9165,8 +9151,8 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  scaleMinimum: 0.2
-  scaleMaximum: 2
+  scaleMinimum: 1
+  scaleMaximum: 1
   relativeToInitialState: 1
 --- !u!65 &157256831
 BoxCollider:
@@ -9236,7 +9222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 0
+  autoConstraintSelection: 1
   selectedConstraints:
   - {fileID: 157256828}
 --- !u!23 &157256834
@@ -9289,6 +9275,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157256826}
   m_Mesh: {fileID: -1340309861534338020, guid: dfbd7cac5b01c5c4d8142681178a2ca4, type: 3}
+--- !u!114 &157256836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157256826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  executionOrder: 0
+  constraintOnRotation: 6
+  useLocalSpaceForConstraint: 1
 --- !u!1 &157704705
 GameObject:
   m_ObjectHideFlags: 0
@@ -86751,6 +86754,9 @@ GameObject:
   - component: {fileID: 1880084490}
   - component: {fileID: 1880084489}
   - component: {fileID: 1880084488}
+  - component: {fileID: 1880084494}
+  - component: {fileID: 1880084493}
+  - component: {fileID: 1880084491}
   m_Layer: 0
   m_Name: Ladder + Guardrails
   m_TagString: Untagged
@@ -86787,7 +86793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1880084487}
   manipulationType: 3
   twoHandedManipulationType: 7
   allowFarManipulation: 1
@@ -86804,7 +86810,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 0}
+  constraintsManager: {fileID: 1880084489}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -86843,8 +86849,60 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.49661064, y: 5.632954, z: 0.20609117}
+  m_Center: {x: -1.2529721, y: 2.804773, z: -0.34998167}
+--- !u!114 &1880084491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880084486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820f94d57893bf843a0cd6d93313fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  executionOrder: 0
+  scaleMinimum: 1
+  scaleMaximum: 1
+  relativeToInitialState: 1
+--- !u!114 &1880084493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880084486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  executionOrder: 0
+  constraintOnRotation: 6
+  useLocalSpaceForConstraint: 1
+--- !u!114 &1880084494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880084486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149fa3ae453128b41940b5caa905f8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  executionOrder: 0
+  constraintOnMovement: -1
+  useLocalSpaceForConstraint: 1
 --- !u!1 &1880301904
 GameObject:
   m_ObjectHideFlags: 0
@@ -94151,7 +94209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2016706108
 Transform:
   m_ObjectHideFlags: 0
