@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9181,6 +9181,7 @@ GameObject:
   - component: {fileID: 157256830}
   - component: {fileID: 157256828}
   - component: {fileID: 157256836}
+  - component: {fileID: 157256837}
   m_Layer: 0
   m_Name: ' Extrusion [307495]'
   m_TagString: Untagged
@@ -9218,7 +9219,7 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnMovement: -1
+  constraintOnMovement: 5
   useLocalSpaceForConstraint: 1
 --- !u!114 &157256830
 MonoBehaviour:
@@ -9264,7 +9265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 157256827}
-  manipulationType: 1
+  manipulationType: -1
   twoHandedManipulationType: 0
   allowFarManipulation: 0
   useForcesForNearManipulation: 0
@@ -9374,8 +9375,22 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnRotation: 3
+  constraintOnRotation: 6
   useLocalSpaceForConstraint: 1
+--- !u!114 &157256837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157256826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!1 &157704705
 GameObject:
   m_ObjectHideFlags: 0
@@ -12420,7 +12435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &223615649
 Transform:
   m_ObjectHideFlags: 0
@@ -87425,8 +87440,8 @@ MonoBehaviour:
   twoHandedManipulationType: 7
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
+  oneHandRotationModeNear: 0
+  oneHandRotationModeFar: 0
   releaseBehavior: 3
   transformSmoothingLogicType:
     reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
@@ -87476,8 +87491,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49661064, y: 5.632954, z: 0.20609117}
-  m_Center: {x: -1.2529721, y: 2.804773, z: -0.34998167}
+  m_Size: {x: 0.49661064, y: 5.2614517, z: 0.20609117}
+  m_Center: {x: -1.2529721, y: 2.6190214, z: -0.34998167}
 --- !u!114 &1880084491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87512,7 +87527,7 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   constraintOnRotation: 6
-  useLocalSpaceForConstraint: 1
+  useLocalSpaceForConstraint: 0
 --- !u!114 &1880084494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87528,8 +87543,8 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnMovement: -1
-  useLocalSpaceForConstraint: 1
+  constraintOnMovement: 5
+  useLocalSpaceForConstraint: 0
 --- !u!1 &1880301904
 GameObject:
   m_ObjectHideFlags: 0
