@@ -27705,7 +27705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &545770144
 Transform:
   m_ObjectHideFlags: 0
@@ -30280,7 +30280,7 @@ MonoBehaviour:
   handType: 3
   proximityType: 3
   executionOrder: 0
-  constraintOnRotation: 6
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
 --- !u!114 &597892468
 MonoBehaviour:
