@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 102
+  controlID: 40
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 27
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 101
+  controlID: 39
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 83230
+  m_LastSelectedObjectID: 117508
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,22 +349,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Extras/External
+    - Assets/Extras/PolygonConstruction/Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Extras/External
+  - Assets/Extras/PolygonConstruction/Textures
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\vince\Github v2\Shared-HoloLens-Project\Shared-HoloLens-Alpha
+  m_LastProjectPath: C:\Users\grego\GitHub\Shared-HoloLens-Project\Shared-HoloLens-Alpha
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 104.599976}
-    m_SelectedIDs: de9d0000
-    m_LastClickedID: 40414
-    m_ExpandedIDs: 00000000a29d0000a49d0000a69d0000a89d0000aa9d0000ac9d0000b49d000000ca9a3b
+    scrollPos: {x: 0, y: 256.6}
+    m_SelectedIDs: 76f20100
+    m_LastClickedID: 127606
+    m_ExpandedIDs: 00000000b29d0000c09d000058f2010060f2010072f2010074f2010076f2010024f6010052f7010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a29d0000a49d0000a69d0000a89d0000aa9d0000ac9d0000
+    m_ExpandedIDs: 00000000b29d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000052e60000629c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 26.600006}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 54c9ffffa4c9ffffc6c9ffff38d3ffff88d3ffff9ed7ffff94d8ffffb2f8ffff2cfbffffaa6d0000b66d0000b47000009c720000b87200008e740000c2750000dc750000c077000072780000f27800000879000080790000027b0000147b0000a67b0000b47b0000e07b0000067c0000a27c0000c07d0000127e0000907e0000f67f00009280000024810000fa810000d0820000768400009e850000cc85000052870000808a0000108b0000928c0000d68c0000e08d0000988e0000fe8f0000d2a801009ea90100e2af010062b70100bac00100
+      m_ExpandedIDs: fe29ffff4e2affff5c2afffffe31ffff189affff689affff7e9effff14a1ffff2afbffff9a750000aa8e000024570100d0c90100a8530200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -579,8 +579,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -771,9 +771,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.712214, y: -1.5364597, z: 1.1283816}
+    m_Target: {x: -0.6961038, y: -0.25081468, z: -1.6874582}
     speed: 2
-    m_Value: {x: 0.712214, y: -1.5364597, z: 1.1283816}
+    m_Value: {x: -0.6961038, y: -0.25081468, z: -1.6874582}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -820,17 +820,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.35509458, y: -0.26700407, z: 0.10660774, w: -0.8895626}
+    m_Target: {x: 0.105515845, y: 0.21569365, z: -0.02343979, w: 0.97047204}
     speed: 2
-    m_Value: {x: -0.35774907, y: -0.26667365, z: 0.10740461, w: -0.8884622}
+    m_Value: {x: 0.105479375, y: 0.21714666, z: -0.02359777, w: 0.97013646}
   m_Size:
-    m_Target: 2.3552651
+    m_Target: 1.5344961
     speed: 2
-    m_Value: 2.2538424
+    m_Value: 1.5344961
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
