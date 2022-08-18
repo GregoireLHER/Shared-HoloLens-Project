@@ -5240,8 +5240,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.39670172, y: 2.6229727, z: 0.32958096}
-  m_Center: {x: -0.000000022351747, y: 1.3114864, z: 0}
+  m_Size: {x: 0.39670172, y: 5.2370653, z: 0.32958096}
+  m_Center: {x: 0.000000074188435, y: 0.0044371686, z: 8.84395e-15}
 --- !u!64 &82657924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28186,8 +28186,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.39670172, y: 2.6229727, z: 0.32958096}
-  m_Center: {x: -0.000000022351747, y: 1.3114864, z: -0.0000009536743}
+  m_Size: {x: 0.39670172, y: 5.191792, z: 0.32958096}
+  m_Center: {x: 0.0000000725694, y: 0.027074518, z: -0.0000009536744}
 --- !u!64 &575405058
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33148,7 +33148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664645612}
   m_Layer: 0
-  m_Name: Right table
+  m_Name: Down table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49600,8 +49600,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.39670172, y: 2.6229727, z: 0.32958096}
-  m_Center: {x: 0.00000045448542, y: 1.3114865, z: -0.0000009536743}
+  m_Size: {x: 0.39670172, y: 8.075143, z: 0.32958096}
+  m_Center: {x: 0.000000014300062, y: 4.0376406, z: -0.0000009536744}
 --- !u!64 &1028086507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50730,7 +50730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052897912}
   m_Layer: 0
-  m_Name: Right table (4)
+  m_Name: Down table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50863,7 +50863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054383077}
   m_Layer: 0
-  m_Name: Left table (4)
+  m_Name: Up table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54004,7 +54004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113044520}
   m_Layer: 0
-  m_Name: Right table
+  m_Name: Down table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63192,7 +63192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300510356}
   m_Layer: 0
-  m_Name: Right table
+  m_Name: Down table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63270,8 +63270,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.39670172, y: 2.6229727, z: 0.32958096}
-  m_Center: {x: 0.00000045448542, y: 1.3114865, z: 0}
+  m_Size: {x: 0.39670172, y: 8.237463, z: 0.32958096}
+  m_Center: {x: 0.0000000014112727, y: 4.1187816, z: 1.682368e-16}
 --- !u!114 &1304248926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98051,7 +98051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2070762358
 Transform:
   m_ObjectHideFlags: 0
